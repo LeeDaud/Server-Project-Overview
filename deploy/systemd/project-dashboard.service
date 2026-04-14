@@ -6,7 +6,7 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=root
-WorkingDirectory=/opt/project-dashboard
+WorkingDirectory=/opt/project-dashboard/backend
 Environment=NODE_ENV=production
 EnvironmentFile=/opt/project-dashboard/.env
 ExecStart=/usr/bin/node dist/index.js
