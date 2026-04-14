@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/ui/badge.tsx\" \"D:/AAA-Project/013/frontend/src/components/ui/badge.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/ui/button.tsx\" \"D:/AAA-Project/013/frontend/src/components/ui/button.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/patterns/page-shell.tsx\" \"D:/AAA-Project/013/frontend/src/components/patterns/page-shell.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/patterns/top-bar.tsx\" \"D:/AAA-Project/013/frontend/src/components/patterns/top-bar.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/patterns/hero-card.tsx\" \"D:/AAA-Project/013/frontend/src/components/patterns/hero-card.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/patterns/stat-card.tsx\" \"D:/AAA-Project/013/frontend/src/components/patterns/stat-card.tsx\")",
+      "Bash(cp \"D:/AAA-Project/000-styleseed/engine/components/patterns/section-card.tsx\" \"D:/AAA-Project/013/frontend/src/components/patterns/section-card.tsx\")",
+      "Bash(npm install:*)",
+      "Bash(npm show:*)",
+      "Bash(npm view:*)",
+      "Bash(MD_FILE_PATH=\"D:/AAA-Project/000-VPS/server-projects-overview.md\" npx tsx src/index.ts)",
+      "Bash(curl -s http://localhost:3013/api/projects)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
