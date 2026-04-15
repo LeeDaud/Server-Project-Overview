@@ -6,7 +6,7 @@ set -euo pipefail
 SERVER="root@66.63.173.143"
 BACKEND_DIR="/opt/project-dashboard"
 FRONTEND_DIR="/var/www/dashboard.licheng.website"
-REPO_URL="https://github.com/LeeDaud/013-project-dashboard.git"
+REPO_URL="https://github.com/LeeDaud/Server-Project-Overview.git"
 
 echo "=== [1/6] Building frontend locally ==="
 cd "$(dirname "$0")/../../frontend"

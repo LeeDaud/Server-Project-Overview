@@ -13,7 +13,8 @@
       "Bash(npm view:*)",
       "Bash(MD_FILE_PATH=\"D:/AAA-Project/000-VPS/server-projects-overview.md\" npx tsx src/index.ts)",
       "Bash(curl -s http://localhost:3013/api/projects)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(ssh:*)"
     ]
   }
 }

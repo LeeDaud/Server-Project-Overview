@@ -6,20 +6,19 @@ interface PageShellProps extends React.ComponentProps<"div"> {
 }
 
 function PageShell({
-  maxWidth = "430px",
+  maxWidth,
   className,
   children,
   ...props
 }: PageShellProps) {
   return (
-    <div className="min-h-screen bg-surface-page" {...props}>
-      <div
-        data-slot="page-shell"
-        className={cn("mx-auto bg-surface-page min-h-screen relative", className)}
-        style={{ maxWidth }}
-      >
-        {children}
-      </div>
+    <div
+      data-slot="page-shell"
+      className={cn("min-h-screen bg-surface-page relative", className)}
+      style={maxWidth ? { maxWidth } : undefined}
+      {...props}
+    >
+      {children}
     </div>
   )
 }
