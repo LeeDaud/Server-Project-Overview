@@ -14,7 +14,8 @@
       "Bash(MD_FILE_PATH=\"D:/AAA-Project/000-VPS/server-projects-overview.md\" npx tsx src/index.ts)",
       "Bash(curl -s http://localhost:3013/api/projects)",
       "Bash(npm run:*)",
-      "Bash(ssh:*)"
+      "Bash(ssh:*)",
+      "Bash(scp -r 'frontend/dist/*' root@66.63.173.143:/var/www/dashboard.licheng.website/)"
     ]
   }
 }
